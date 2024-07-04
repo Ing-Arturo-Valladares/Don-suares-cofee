@@ -133,7 +133,7 @@ form button:hover {
         .producto{
             display: flex;
              flex-direction: column;
-            height: 250px;
+            height: 255px;
         }
         .imagen-producto{
             width: 100%;
