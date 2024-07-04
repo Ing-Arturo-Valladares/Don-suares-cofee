@@ -148,5 +148,10 @@ form button:hover {
         nav a{
             font-size: 0.5rem;
         }
-       
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #f4f4f4;
+        }
 }
