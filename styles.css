@@ -94,6 +94,14 @@ padding: 4%;
 h1{
     text-align: center;
 }
+.boton-producto button{
+    background-color: #444;
+    color: #fff;
+    width: 15em;
+    height: 5em;
+    border-radius: 5px;
+    margin-left: 12em;
+}
 
 
 
@@ -116,6 +124,9 @@ footer {
     background-color: #333;
     color: #f4f4f4;
 }
+.contactanos{
+    margin-left: -800px;
+}
 .h1contactanos{
     text-align: center;
 }
@@ -136,10 +147,14 @@ footer {
     color: #0ea73c;
     font-size: 4em;
     margin-left: 7rem;
+    bottom: 1em;
+    right: 1em;
+    position: fixed;
 
 }
 .footer-logo{
         align-items: start;
+        margin-left: -400px;
 }
 .logo-footer{
     width: 7rem;
@@ -212,6 +227,13 @@ footer p {
             height: 100px;
             object-fit: fill;
             overflow: hidden;
+        }
+        .boton-producto button{
+            margin-top: 10px;
+            margin-left: 12.5em;
+            font-size: 8px;
+            width: 15em;
+    height: 2em;
         }
         
         nav a{
