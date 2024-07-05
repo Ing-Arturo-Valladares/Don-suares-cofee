@@ -232,7 +232,7 @@ footer p {
             height: 80px;
             object-fit: fill;
             overflow: hidden;
-            padding-bottom: 2px;
+            padding-bottom: 10px;
         }
         .boton-producto button{
             margin-top: 10px;
