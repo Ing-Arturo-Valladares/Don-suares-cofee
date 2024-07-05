@@ -191,10 +191,10 @@ footer p {
 
 @media  (max-width: 425px){
     header{
-        height: 3em;
+        height: 3.5em;
     }
     header img{
-        height: 3em;
+        height: 3.5em;
     }
     .logo{
         width: 1.2rem;
