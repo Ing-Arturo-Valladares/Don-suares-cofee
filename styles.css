@@ -44,6 +44,16 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.2em;
+    
+}
+.whatsapp{
+    color: #f4f4f4;
+    font-size: 2.5em;
+    border-color: #4d0909;
+}
+.facebook{
+    color:  #f4f4f4;
+    font-size: 2.5em;
 }
 nav a:hover {
     text-decoration: underline;
