@@ -50,9 +50,7 @@ nav a {
 }
 .redes{
     display: flex;
-    justify-content: space-between;
-
-    
+    justify-content: space-between; 
 }
 .whatsapp{
     color: #f4f4f4;
