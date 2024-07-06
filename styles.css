@@ -265,7 +265,6 @@ footer p {
         .producto{
             display: flex;
              flex-direction: column;
-            height: 275px;
         }
         .imagen-producto{
             width: 100%;
@@ -273,7 +272,7 @@ footer p {
         }
         .img-producto{
             width: 100%;
-            height: 80px;
+            height: 1.2em;
             object-fit: fill;
             overflow: hidden;
             padding-bottom: 10px;
