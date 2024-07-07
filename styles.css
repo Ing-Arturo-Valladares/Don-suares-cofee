@@ -329,8 +329,7 @@ footer p {
             height: 90%;
         }
         .pedido{
-            display: flex;
-            height: 1100px;
+
             flex-direction: column;
             justify-content: start;
             align-items: start;
