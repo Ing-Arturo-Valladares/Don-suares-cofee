@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Robotocondensed", Arial, sans-serif;
+    font-family: "Robotocondensed",sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -73,6 +73,7 @@ nav a:hover {
 }
 .producto{
     display: flex;
+    background-color: #f4f4f4;
     
 }
 .descripcion-producto{
@@ -149,6 +150,7 @@ h1{
     justify-content: center;
     align-items: center;
 }
+
 
 .container {
     max-width: 1200px;
@@ -319,4 +321,38 @@ footer p {
             font-size: 0.8em;
             margin-left: -120px;
         }
+
+
+}
+
+
+/* css paagina sobre nosotros*/
+.carousel-item{
+    height: 30rem;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.carousel-item img{
+    object-fit: fill;
+    height: 95%;
+}
+.carousel-caption{
+    margin-bottom: 23%;
+}
+.historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10PX;
+    
+}
+.historia img{
+        height: 500px;
+        width: 90%;
+}
+.feria{
+    margin-top: 1em;
 }
