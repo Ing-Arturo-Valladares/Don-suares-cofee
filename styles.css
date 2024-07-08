@@ -390,6 +390,7 @@ footer p {
     align-items: center;
     padding: 8em;
     img{
+        object-fit: cover;
         border-radius: 15px;
     }
 }
