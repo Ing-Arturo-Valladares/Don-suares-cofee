@@ -433,7 +433,7 @@ footer p {
 
 @media  (max-width: 375px){
     .imagen-pedido{
-        margin: 2.3em;
+        margin: 2em;
     }
     .boton-pedido button{
         margin-left: 85px;
