@@ -403,7 +403,7 @@ footer p {
              margin-top: 10px;
         }
         .imagen-pedido{
-        margin-left: 2.5em;
+        margin-left: 3.8em;
         }
         .img-pedido{
             width: 300px;
@@ -423,16 +423,26 @@ footer p {
         .boton-pedido button{
             background-color: #444;
             color: #f4f4f4;
-            width: 200px;
+            width: 175px;
             height: 20px;
             font-size: 12px;
-            margin-left: 83px;
+            margin-left: 115px;
         }
 
 }
+
+@media  (max-width: 375px){
+    .imagen-pedido{
+        margin: 2.3em;
+    }
+    .boton-pedido button{
+        margin-left: 85px;
+        width: 175px;
+    }
+}
 @media  (max-width: 320px){
     .imagen-pedido{
-        margin: 0.4em;
+        margin: 0.5em;
     }
     .boton-pedido button{
         margin-left: 60px;
