@@ -404,6 +404,8 @@ footer p {
         }
         .imagen-pedido{
         margin-left: 3.8em;
+        margin-top: 1em;
+        margin-bottom: 0;
         }
         .img-pedido{
             width: 300px;
