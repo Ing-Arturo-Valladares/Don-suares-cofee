@@ -23,8 +23,8 @@ header img {
     object-fit: fill; /* Esta propiedad asegura que la imagen cubra todo el header */
 }
 .logo{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     object-fit: fill;
     border-radius: 50%;
 }
@@ -415,7 +415,7 @@ footer p {
         }
         .descripcion-pedido{
             padding: 10px;
-            margin: 0px;
+            margin: 0;
             font-size: 12px;
         }
         .descripcion-pedido h1{
