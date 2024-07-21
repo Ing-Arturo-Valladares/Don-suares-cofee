@@ -47,6 +47,13 @@ nav a {
     font-size: 1.2em;
     
 }
+nav a:hover {
+    text-decoration: underline;
+}
+.cambio-nav{
+    transition: 0.5s;
+    color: #D4AF37    ;
+}
 .redes{
     display: flex;
     justify-content: space-evenly;
@@ -56,15 +63,21 @@ nav a {
     color: #f4f4f4;
     font-size: 2.5em;
     margin: 2rem;
+    transition: 0.5s;
+}
+.whatsapp:hover{
+    color: #52d346;
 }
 .facebook{
     color:  #f4f4f4;
     font-size: 2.5em;
     margin: 2rem;
+    transition: 0.6s;
 }
-nav a:hover {
-    text-decoration: underline;
+.facebook:hover{
+    color: rgb(55, 154, 211);
 }
+
 .delicioso{
     width: 100%;
     min-height: 150px;
@@ -87,10 +100,11 @@ padding: 4%;
 }
 .img-producto{
     width: 100%;
-    max-height: 500px;
-    min-height: 150px;
+    height: 500px;
+
     object-fit: fill;
     overflow: hidden;
+    border-radius: 15px;
 }
 h1{
     text-align: center;
@@ -102,8 +116,13 @@ h1{
     height: 5em;
     border-radius: 5px;
     margin-left: 12em;
+    transition: 0.6s;
 }
-.cuadrado{
+.boton-producto button:hover{
+color: #D4AF37;
+}
+
+.div-nosotros{
     display: flex;
     justify-content: center;
 }
@@ -143,6 +162,10 @@ h1{
     width: 20em;
     height: 5em;
     margin-bottom: 2em;
+    transition: 0.6s;
+}
+.boton-sobrenosotros button:hover{
+  color:#D4AF37
 }
 .sobre-nosotros{
     margin-top: 20px;
@@ -170,9 +193,11 @@ footer {
     background-color: #333;
     color: #f4f4f4;
 }
+
 .contactanos{
     margin-left: -800px;
 }
+
 .h1contactanos{
     text-align: center;
 }
@@ -186,10 +211,14 @@ footer {
     display: flex;
     margin-bottom: 10px;
 }
+.contactanos ul li i:hover{
+    
+    color: #D4AF37;
+}
 .contactanos ul li i {
     margin-right: 10px;
 }
-.hola{
+.whatsapp-footer{
     color: #0ea73c;
     font-size: 4em;
     margin-left: 7rem;
@@ -259,6 +288,9 @@ footer p {
     padding: 10PX;
     
 }
+.historia p{
+    padding: 1rem;
+}
 .historia img{
         height: 500px;
         width: 90%;
@@ -294,9 +326,41 @@ footer p {
     font-size: 24px;
     margin-left: 160px;
     border-radius: 15px;
+    transition: 0.6s;
+}
+.boton-pedido button:hover{
+    color: #D4AF37;
 }
 
-
+@media  (max-width: 768px){
+    .div-nosotros{
+            display: flex;
+            flex-wrap: wrap;
+    }
+    .pedido{
+        display: flex;
+         flex-direction: column;
+         margin-bottom: 10px;
+         margin-top: 10px;
+    }
+    .imagen-pedido{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;
+        }
+        nav a{
+            font-size: 0.8rem;
+            margin: 0;
+        }
+        .boton-producto button{
+            background-color: #444;
+            color: #f4f4f4;
+            width: 15em;
+            height: 5em;
+            border-radius: 5px;
+            margin-left: 4rem;
+        }
+}
 
 
 @media  (max-width: 425px){
@@ -326,7 +390,7 @@ footer p {
     .descripcion-producto{
         width: 100%;
         padding: 4%;
-        font-size: 1.5%;
+        font-size: 0.8rem;
         }
         
         .producto{
@@ -337,12 +401,12 @@ footer p {
         }
         .imagen-producto{
             width: 100%;
-            
+            height: 300px;
             
         }
         .img-producto{
             width: 100%;
-            height: 1.2em;
+            height: 300px;
             object-fit: fill;
             overflow: hidden;
             padding-bottom: 10px;
@@ -350,12 +414,12 @@ footer p {
         }
         .boton-producto button{
             margin-top: 10px;
-            margin-left: 12.5em;
-            font-size: 8px;
+            margin-left: 13em;
+            font-size: 10px;
             width: 15em;
-            height: 2em;
+            height: 2rem;
         }
-        .cuadrado{
+        .div-nosotros{
             display: flex;
             flex-wrap: wrap;
         }
@@ -379,7 +443,7 @@ footer p {
             object-fit: fill;
             border-radius: 20%;
         }
-        .hola{
+        .whatsapp-footer{
             font-size: 2.5rem;
             position:fixed;
             bottom: 7rem;
@@ -403,13 +467,11 @@ footer p {
              margin-top: 10px;
         }
         .imagen-pedido{
-        margin-left: 3.8em;
-        margin-top: 1em;
-        margin-bottom: 0;
+            margin: 0.5em;
         }
         .img-pedido{
-            width: 300px;
-            height: 300px;
+            width: 290px;
+            height: 350px;
         
             border-radius: 15px;
         }
@@ -443,6 +505,17 @@ footer p {
         margin-left: 85px;
         width: 175px;
     }
+    nav a{
+        font-size: 0.6rem;
+        margin: 0;
+    }
+    .boton-producto button{
+        margin-top: 10px;
+        margin-left: 10em;
+        font-size: 10px;
+        width: 15em;
+        height: 2rem;
+    }
 }
 @media  (max-width: 320px){
     .imagen-pedido{
@@ -450,6 +523,17 @@ footer p {
     }
     .boton-pedido button{
         margin-left: 60px;
+    }
+    nav a{
+        font-size: 0.5rem;
+        margin: 0;
+    }
+    .boton-producto button{
+        margin-top: 10px;
+        margin-left: 7em;
+        font-size: 10px;
+        width: 15em;
+        height: 2rem;
     }
 
     
